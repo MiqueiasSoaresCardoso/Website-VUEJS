@@ -106,6 +106,7 @@ import axios from 'axios'
                 
                 axios
                 .post('http://localhost:8081/burguers/new',formdata)
+            
                 .then(({dados})=>{
                     this.msg="Pedido Realizado com Sucesso!"
                 }).catch(({error})=>{
